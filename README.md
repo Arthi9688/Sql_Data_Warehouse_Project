@@ -1,4 +1,4 @@
-📦 SQL Data Warehouse & Analytics Project
+📦 SQL Data Warehouse Project
 
 A complete end-to-end data engineering and analytics project built using SQL Server.
 This repository demonstrates raw data ingestion, data modeling, ETL pipelines, and SQL-based analytics following modern industry standards.
@@ -21,7 +21,8 @@ This project follows the Medallion Architecture:
 	•	Final star-schema model with Fact & Dimension tables.
 	•	Used for reporting, dashboards, and analytics queries.
 
-⸻
+<img width="1023" height="592" alt="image" src="https://github.com/user-attachments/assets/4018d852-2a7d-49c9-8c80-e7002192adae" />
+
 
 📖 Project Overview
 
@@ -29,7 +30,6 @@ This project includes:
 	•	Data Architecture: Designing a modern SQL-based warehouse
 	•	ETL Pipelines: Extract → Transform → Load using SQL
 	•	Data Modeling: Fact/Dimension schema for analytics
-	•	Analytics: SQL queries for KPIs and business insights
 
 ⸻
 
@@ -38,7 +38,6 @@ This project includes:
 	•	Data Engineering
 	•	ETL Pipeline Design
 	•	Data Modeling (Star Schema)
-	•	Data Analytics & Reporting
 
 ⸻
 
