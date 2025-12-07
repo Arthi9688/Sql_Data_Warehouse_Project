@@ -1,4 +1,4 @@
-### 📦 SQL Data Warehouse Project
+# 📦 SQL Data Warehouse Project
 
 A complete end-to-end data engineering and analytics project built using SQL Server.
 This repository demonstrates raw data ingestion, data modeling, ETL pipelines, and SQL-based analytics following modern industry standards.
@@ -7,15 +7,15 @@ This repository demonstrates raw data ingestion, data modeling, ETL pipelines, a
 
 This project follows the Medallion Architecture:
 
-### 🔹 Bronze Layer – Raw Data
+#### 🔹 Bronze Layer – Raw Data
 	- Stores raw data ingested from CSV files (ERP + CRM).
 	- Loaded directly into SQL Server without transformations.
 
-###  🔸 Silver Layer – Cleaned Data
+####  🔸 Silver Layer – Cleaned Data
 	- Data cleaning, validation, and standardization.
 	- Resolves duplicates, missing values, and type issues.
 
-###  🟡 Gold Layer – Business Data
+####  🟡 Gold Layer – Business Data
 	- Final star-schema model with Fact & Dimension tables.
 	- Used for reporting, dashboards, and analytics queries.
 
