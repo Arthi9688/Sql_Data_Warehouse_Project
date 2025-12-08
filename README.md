@@ -1,21 +1,21 @@
-# 📦 SQL Data Warehouse Project
+# SQL Data Warehouse Project
 
 A complete end-to-end data engineering and analytics project built using SQL Server.
 This repository demonstrates raw data ingestion, data modeling, ETL pipelines, and SQL-based analytics following modern industry standards.
 
-## 🏗️ Data Architecture (Medallion)
+## Data Architecture (Medallion)
 
 This project follows the Medallion Architecture:
 
-#### 🔹 Bronze Layer – Raw Data
+####  🤎 Bronze Layer – Raw Data
 	- Stores raw data ingested from CSV files (ERP + CRM).
 	- Loaded directly into SQL Server without transformations.
 
-####  🔸 Silver Layer – Cleaned Data
+####  🩶 Silver Layer – Cleaned Data
 	- Data cleaning, validation, and standardization.
 	- Resolves duplicates, missing values, and type issues.
 
-####  🟡 Gold Layer – Business Data
+####  💛 Gold Layer – Business Data
 	- Final star-schema model with Fact & Dimension tables.
 	- Used for reporting, dashboards, and analytics queries.
 
@@ -28,6 +28,7 @@ This project follows the Medallion Architecture:
       - Data Architecture: Designing a modern SQL-based warehouse
       - ETL Pipelines: Extract → Transform → Load using SQL
       - Data Modeling: Fact/Dimension schema for analytics
+	  - Analytics: SQL queries for KPIs and business insights
 
 
 
@@ -36,14 +37,22 @@ This project follows the Medallion Architecture:
 	- Data Engineering
 	- ETL Pipeline Design
 	- Data Modeling (Star Schema)
+	- Data Analytics & Reporting
 
 
 ## 🚀 Project Requirements
 
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-##### Specifications:
-	- Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
-	- Data Quality: Cleanse and resolve data quality issues prior to analysis.
-	- Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
-	- Scope: Focus on the latest dataset only; historization of data is not required.
-	- Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+#### 1. Data Engineering
+	-	Import data from ERP and CRM CSV sources.
+    -	Clean and standardize data for quality and consistency.
+    -	Integrate both sources into a unified analytical model.
+    -	Focus on the latest dataset (no historization needed).
+    -	Provide documentation for data architecture and schema.
+
+#### 2. Analytics & Reporting
+	-	Customer behavior
+    -	Product performance
+    -	Sales trends
+
+These insights help stakeholders make informed business decisions.
