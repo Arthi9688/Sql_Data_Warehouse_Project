@@ -22,9 +22,9 @@ This project follows the Medallion Architecture:
 <img width="1023" height="592" alt="image" src="https://github.com/user-attachments/assets/4018d852-2a7d-49c9-8c80-e7002192adae" />
 
 
-📖 Project Overview
+## 📖 Project Overview
 
-## This project includes:
+### This project includes:
       - Data Architecture: Designing a modern SQL-based warehouse
       - ETL Pipelines: Extract → Transform → Load using SQL
       - Data Modeling: Fact/Dimension schema for analytics
@@ -32,7 +32,7 @@ This project follows the Medallion Architecture:
 
 
 
-## 🎯 Skills Demonstrated
+### 🎯 Skills Demonstrated
 	- SQL Development
 	- Data Engineering
 	- ETL Pipeline Design
